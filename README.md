@@ -1,48 +1,36 @@
-# CareHub
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-CareHub is a full-stack web application designed to manage all aspects of a hospital. It provides features for booking appointments, tracking patient standing, and managing medical history. The application includes different logins for doctors, nurses, and patients, each with their respective functionalities. Patients can conveniently book appointments by searching for departments or specific doctors. Additionally, they can access and download prescriptions, lab reports, and scans online.
+## Getting Started
 
-## Features
+First, run the development server:
 
-- Appointment Booking: Patients can book appointments by searching for departments or specific doctors.
-- Token Status: Implemented a token status feature that reduces waiting time by 70%.
-- Medical History: Maintains a comprehensive medical history for each patient.
-- Secure Access: Different login systems for doctors, nurses, and patients.
-- Online Access to Documents: Patients can view and download prescriptions, lab reports, and scans.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Technologies Used
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- HTML
-- CSS
-- Bootstrap
-- PHP
-- MySQL
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Installation
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-To run CareHub on your local machine, follow these steps:
+## Learn More
 
-1. Clone the repository
-2. Navigate to the project directory: `cd CareHub`
-3. Set up the database using the provided SQL file.
-4. Configure the database connection in the PHP files.
-5. Deploy the project on a web server that supports PHP and MySQL.
+To learn more about Next.js, take a look at the following resources:
 
-## Usage
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-1. Visit/Launch the CareHub.
-2. Select the appropriate login type: Doctor, Nurse, or Patient.
-3. Perform the desired actions based on the login type.
-   - Doctors: Manage appointments, view patient information, etc.
-   - Nurses: Assist doctors, update patient records, etc.
-   - Patients: Book appointments, access medical history, download documents, etc.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-<!-- ## Screenshots -->
+## Deploy on Vercel
 
-## Contributing
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
